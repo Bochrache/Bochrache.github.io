@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bochra Chemam — Data × Project Management</title>
-<meta name="description" content="Bochra Chemam — hybrid Data Science and IT Project Management profile in Luxembourg. Power BI, Python, machine learning, and project delivery.">
-<meta property="og:title" content="Bochra Chemam — Data × Project Management">
-<meta property="og:description" content="A hybrid profile: data scientist who manages projects, project manager who codes.">
+<title>Bochra Chemam — Data · Business · Delivery</title>
+<meta name="description" content="Bochra Chemam — polyvalent data &amp; business analyst in Luxembourg since 2019. Between academia and industry: business analysis, machine learning research, project and product delivery.">
+<meta property="og:title" content="Bochra Chemam — Data · Business · Delivery">
+<meta property="og:description" content="I turn real business problems into solutions that create value.">
 <meta property="og:image" content="https://bochrache.github.io/profile.png">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%234A0E22'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23E8C9A0' font-family='Arial' font-weight='bold'>B</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +34,7 @@ a{color:var(--wine2)}
 .eyebrow::before{content:"";width:28px;height:2px;background:var(--gold)}
 h1,h2{font-family:var(--display);letter-spacing:-.02em;line-height:1.1}
 h2{font-size:clamp(26px,3.6vw,36px);font-weight:700;margin:12px 0 34px}
-section{padding:88px 0}
+section{padding:84px 0}
 
 /* Nav */
 nav{position:sticky;top:0;z-index:50;background:rgba(249,243,242,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
@@ -47,13 +47,13 @@ nav{position:sticky;top:0;z-index:50;background:rgba(249,243,242,.85);backdrop-f
 .nav-cta{background:var(--wine);color:#fff!important;padding:9px 16px;border-radius:10px;font-weight:600}
 @media(max-width:740px){.nav-links a:not(.nav-cta){display:none}}
 
-/* Hero — photo melts into the burgundy */
+/* Hero */
 .hero{background:radial-gradient(1100px 600px at 78% 40%, #5A1830 0%, var(--wine) 55%, #36091A 100%);color:#fff;overflow:hidden}
 .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:end;gap:30px;min-height:560px}
 .hero-copy{padding:90px 0 80px}
 .hero h1{font-size:clamp(40px,6vw,64px);font-weight:800;color:#fff;margin:20px 0 8px}
 .hero .tag-line{font-family:var(--display);font-size:clamp(18px,2.4vw,24px);font-weight:600;color:#E8C9A0;margin-bottom:18px}
-.hero p.lead{color:#E9CFD6;font-size:16.5px;max-width:46ch}
+.hero p.lead{color:#E9CFD6;font-size:16.5px;max-width:48ch}
 .hero-ctas{display:flex;gap:13px;margin-top:30px;flex-wrap:wrap}
 .btn{display:inline-flex;align-items:center;gap:9px;text-decoration:none;font-weight:600;font-size:14.5px;padding:13px 22px;border-radius:11px;transition:transform .15s}
 .btn:hover{transform:translateY(-2px)}
@@ -73,20 +73,20 @@ nav{position:sticky;top:0;z-index:50;background:rgba(249,243,242,.85);backdrop-f
 .pulse{width:8px;height:8px;border-radius:50%;background:var(--gold);display:inline-block;margin-right:8px;animation:pulse 2s infinite;box-shadow:0 0 0 0 rgba(201,151,76,.5)}
 @keyframes pulse{70%{box-shadow:0 0 0 8px rgba(201,151,76,0)}100%{box-shadow:0 0 0 0 rgba(201,151,76,0)}}
 
-/* Hybrid venn */
-.venn-wrap{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
-.venn{position:relative;height:300px}
-.circle{position:absolute;top:18px;width:264px;height:264px;border-radius:50%;display:flex;align-items:center;padding:0 30px;font-family:var(--display);font-weight:700;font-size:17px;transition:transform .4s ease}
-.c1{left:0;background:rgba(74,14,34,.10);border:2px solid var(--wine2);color:var(--wine);justify-content:flex-start}
-.c2{right:0;background:rgba(201,151,76,.12);border:2px solid var(--gold);color:#8a6320;justify-content:flex-end;text-align:right}
-.venn:hover .c1{transform:translateX(-7px)}
-.venn:hover .c2{transform:translateX(7px)}
-.venn .me{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--wine);color:#fff;border-radius:50%;width:96px;height:96px;display:grid;place-items:center;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-align:center;line-height:1.5;box-shadow:0 14px 30px -12px rgba(74,14,34,.55);z-index:2}
-.c-sub{position:absolute;width:264px;text-align:center;font-family:var(--mono);font-size:11px;color:var(--muted);top:294px}
-.c-sub.s1{left:0}.c-sub.s2{right:0}
-@media(max-width:840px){.venn-wrap{grid-template-columns:1fr}.venn{transform:scale(.82);transform-origin:left}}
-.venn-copy p{color:#5E3C4B;margin-bottom:14px;font-size:16px}
-.values{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+/* 3-circle venn */
+.venn-wrap{display:grid;grid-template-columns:1fr 1fr;gap:46px;align-items:center}
+.venn3{position:relative;width:340px;height:330px;margin:0 auto}
+.c{position:absolute;width:208px;height:208px;border-radius:50%;display:flex;justify-content:center;text-align:center;font-family:var(--display);font-weight:700;font-size:14.5px;line-height:1.35;padding:18px;transition:transform .4s ease}
+.cA{left:0;top:0;background:rgba(74,14,34,.10);border:2px solid var(--wine2);color:var(--wine);align-items:flex-start;padding-top:30px}
+.cB{right:0;top:0;background:rgba(201,151,76,.13);border:2px solid var(--gold);color:#8a6320;align-items:flex-start;padding-top:30px}
+.cC{left:66px;bottom:0;background:rgba(135,64,96,.10);border:2px solid var(--wine3);color:var(--wine3);align-items:flex-end;padding-bottom:28px}
+.venn3:hover .cA{transform:translate(-6px,-5px)}
+.venn3:hover .cB{transform:translate(6px,-5px)}
+.venn3:hover .cC{transform:translateY(7px)}
+.venn3 .me{position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);background:var(--wine);color:#fff;border-radius:50%;width:92px;height:92px;display:grid;place-items:center;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-align:center;line-height:1.5;box-shadow:0 14px 30px -12px rgba(74,14,34,.55);z-index:2}
+@media(max-width:840px){.venn-wrap{grid-template-columns:1fr}.venn3{transform:scale(.86);transform-origin:center left}}
+.venn-copy p{color:#5E3C4B;margin-bottom:13px;font-size:15.5px}
+.values{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
 .chip{font-family:var(--mono);font-size:12px;padding:8px 14px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--wine)}
 
 /* Toolbox */
@@ -95,20 +95,27 @@ nav{position:sticky;top:0;z-index:50;background:rgba(249,243,242,.85);backdrop-f
 .tool:hover{transform:translateY(-5px);box-shadow:0 16px 30px -18px rgba(74,14,34,.4)}
 .tool span{font-family:var(--mono);font-size:12px;color:var(--ink)}
 
+/* Credentials */
+.creds{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px;justify-content:center}
+.cred{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 16px;font-size:13px}
+.cred b{font-weight:600}
+.cred .org{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.cred::before{content:"✦";color:var(--gold)}
+
 /* Impact numbers */
 .impact-band{background:var(--wine);border-radius:24px;color:#fff;padding:46px 40px;display:grid;grid-template-columns:repeat(4,1fr);gap:26px;text-align:center}
-.impact-band .n{font-family:var(--mono);font-size:clamp(26px,3.4vw,38px);color:var(--gold)}
+.impact-band .n{font-family:var(--mono);font-size:clamp(24px,3.2vw,36px);color:var(--gold)}
 .impact-band .l{font-size:13px;color:#E9CFD6;margin-top:4px}
 @media(max-width:740px){.impact-band{grid-template-columns:1fr 1fr;padding:36px 24px}}
 
 /* Cards (flip) */
 .scope-note{font-family:var(--mono);font-size:12px;color:var(--muted);margin:-22px 0 28px}
-.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
-.flip{perspective:1400px;height:280px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:20px}
+.flip{perspective:1400px;height:316px}
 .flip-inner{position:relative;width:100%;height:100%;transition:transform .6s cubic-bezier(.2,.7,.25,1);transform-style:preserve-3d;cursor:pointer;border:none;background:none;padding:0;text-align:left;font:inherit;color:inherit;display:block}
 .flip.is-flipped .flip-inner{transform:rotateY(180deg)}
 @media(hover:hover){.flip:hover .flip-inner{transform:rotateY(180deg)}}
-.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:18px;padding:24px;display:flex;flex-direction:column}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:18px;padding:23px;display:flex;flex-direction:column}
 .face.front{background:var(--card);border:1px solid var(--line)}
 .face.back{background:var(--wine);color:#fff;transform:rotateY(180deg)}
 .badge{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;padding:4px 11px;border-radius:999px;align-self:flex-start;margin-bottom:13px}
@@ -119,8 +126,10 @@ nav{position:sticky;top:0;z-index:50;background:rgba(249,243,242,.85);backdrop-f
 .techs{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
 .techs span{font-family:var(--mono);font-size:10.5px;background:var(--rose);color:var(--wine2);padding:4px 9px;border-radius:6px}
 .flip-cue{margin-top:13px;font-family:var(--mono);font-size:11px;color:var(--gold)}
-.face.back p{font-size:13.5px;color:#F0DCE2;flex:1}
-.repo-link{display:inline-flex;align-items:center;gap:8px;color:#fff;font-weight:600;font-size:13px;text-decoration:none;border:1.5px solid rgba(255,255,255,.35);padding:8px 14px;border-radius:9px;align-self:flex-start}
+.vl{flex:1;overflow:auto;font-size:12.8px;line-height:1.5}
+.vl p{color:#F0DCE2;margin-bottom:9px}
+.vl b{color:var(--gold);font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;display:block;margin-bottom:1px}
+.repo-link{display:inline-flex;align-items:center;gap:8px;color:#fff;font-weight:600;font-size:12.5px;text-decoration:none;border:1.5px solid rgba(255,255,255,.35);padding:7px 13px;border-radius:9px;align-self:flex-start;margin-top:10px}
 .repo-link:hover{background:rgba(255,255,255,.1)}
 @media(prefers-reduced-motion:reduce){.flip-inner{transition:none}.flip.is-flipped .face.front{visibility:hidden}}
 
@@ -134,8 +143,20 @@ nav{position:sticky;top:0;z-index:50;background:rgba(249,243,242,.85);backdrop-f
 .j-card .org{font-size:13px;font-weight:600;color:var(--gold);margin-bottom:10px}
 .j-card p{font-size:13.8px;color:#5E3C4B}
 .j-card.deep p{color:#F0DCE2}
-.edu-line{margin-top:26px;font-family:var(--mono);font-size:12.5px;color:var(--muted);text-align:center}
+.edu-line{margin-top:26px;font-family:var(--mono);font-size:12px;color:var(--muted);text-align:center;line-height:2}
 @media(max-width:840px){.journey{grid-template-columns:1fr}}
+
+/* Beyond */
+.beyond{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:16px}
+.b-tile{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;transition:transform .2s ease}
+.b-tile:hover{transform:translateY(-4px)}
+.b-tile .ico{font-size:26px;margin-bottom:10px;display:block}
+.b-tile h3{font-family:var(--display);font-size:15.5px;font-weight:700;margin-bottom:5px}
+.b-tile p{font-size:13px;color:#5E3C4B}
+.b-tile.lead{background:linear-gradient(150deg,var(--wine),#36091A);color:#fff;border:none}
+.b-tile.lead p{color:#F0DCE2}
+.b-tile.lead .org{font-family:var(--mono);font-size:11px;color:var(--gold);letter-spacing:.08em;display:block;margin-bottom:8px}
+@media(max-width:840px){.beyond{grid-template-columns:1fr 1fr}.b-tile.lead{grid-column:1/-1}}
 
 /* Contact */
 .contact{background:radial-gradient(800px 400px at 50% 0%, #5A1830, var(--wine) 70%);color:#fff;border-radius:26px;padding:62px 40px;text-align:center;margin-bottom:80px}
@@ -158,6 +179,7 @@ footer{padding:24px 0 36px;text-align:center;font-family:var(--mono);font-size:1
       <a href="#tools">Toolbox</a>
       <a href="#projects">Projects</a>
       <a href="#journey">Journey</a>
+      <a href="#beyond">Beyond</a>
       <a class="nav-cta" href="mailto:bochra.chemam@outlook.com">Get in touch</a>
     </div>
   </div>
@@ -166,10 +188,10 @@ footer{padding:24px 0 36px;text-align:center;font-family:var(--mono);font-size:1
 <header class="hero" id="top">
   <div class="wrap hero-grid">
     <div class="hero-copy">
-      <p class="eyebrow">Luxembourg · Data × Project Management</p>
+      <p class="eyebrow">Luxembourg · Data · Business · Delivery</p>
       <h1>Bochra Chemam</h1>
-      <p class="tag-line">A data scientist who manages projects.<br>A project manager who codes.</p>
-      <p class="lead">Final-year Data Science master's student, currently delivering Power BI PMO dashboards as an ICT Project Management intern at DEEP by POST Group.</p>
+      <p class="tag-line">I turn real business problems into<br>solutions that create value.</p>
+      <p class="lead">Data &amp; business analyst since 2019, moving between academia and industry — from machine learning research to business analysis, project and product delivery. I love building things from scratch.</p>
       <div class="hero-ctas">
         <a class="btn btn-gold" href="#projects">Explore my work</a>
         <a class="btn btn-ghost" href="https://www.linkedin.com/in/bochra-chemam" target="_blank" rel="noopener">LinkedIn</a>
@@ -185,32 +207,31 @@ footer{padding:24px 0 36px;text-align:center;font-family:var(--mono);font-size:1
 <div class="strip">
   <div class="wrap strip-in">
     <span><span class="pulse" aria-hidden="true"></span>NOW: PMO dashboards @ DEEP by POST Group</span>
+    <span>IN DATA SINCE 2019</span>
     <span>FR · EN · DE</span>
-    <span>PMI · PRINCE2</span>
     <span>OPEN TO OPPORTUNITIES</span>
   </div>
 </div>
 
 <section id="hybrid">
   <div class="wrap">
-    <p class="eyebrow">The hybrid profile</p>
-    <h2>I live in the overlap.</h2>
+    <p class="eyebrow">The profile</p>
+    <h2>One profile, three strengths.</h2>
     <div class="venn-wrap">
-      <div class="venn reveal" aria-label="Venn diagram: Data Science overlapping Project Management, with me in the middle">
-        <div class="circle c1">Data<br>Science</div>
-        <div class="circle c2">Project<br>Management</div>
+      <div class="venn3 reveal" aria-label="Venn diagram of three overlapping circles: Data and Machine Learning, Business Analysis, Project and Product Delivery — with me in the middle">
+        <div class="c cA">Data &amp;<br>Machine Learning</div>
+        <div class="c cB">Business<br>Analysis</div>
+        <div class="c cC">Project &amp; Product<br>Delivery</div>
         <div class="me">THIS IS<br>WHERE<br>I WORK</div>
-        <div class="c-sub s1">ML · statistics · pipelines</div>
-        <div class="c-sub s2">scope · stakeholders · delivery</div>
       </div>
       <div class="venn-copy reveal">
-        <p>Most people pick one side. I build the bridge: technical solutions that answer real business questions, and project decisions backed by data.</p>
-        <p>Autonomous by default, I learn by doing — I'd rather ship a working MVP than read a third tutorial.</p>
+        <p>Since 2019 I've worked where these three circles meet: understanding a business problem, shaping it with data, and delivering a solution people actually use.</p>
+        <p>That mix took me from ML graduate research in academia to business analysis in industry, and now to leading an IT project end-to-end — with a growing interest in product management.</p>
         <div class="values">
+          <span class="chip">Build from scratch</span>
           <span class="chip">Learn by doing</span>
           <span class="chip">Autonomous</span>
-          <span class="chip">Data storytelling</span>
-          <span class="chip">KPI-driven</span>
+          <span class="chip">Value-driven</span>
         </div>
       </div>
     </div>
@@ -235,16 +256,22 @@ footer{padding:24px 0 36px;text-align:center;font-family:var(--mono);font-size:1
 <div class="tool reveal" style="--d:0.4s"><svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path fill="#2496ED" d="M13.983 11.078h2.119a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.119a.185.185 0 00-.185.185v1.888c0 .102.083.185.185.185m-2.954-5.43h2.118a.186.186 0 00.186-.186V3.574a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m0 2.716h2.118a.187.187 0 00.186-.186V6.29a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.887c0 .102.082.185.185.186m-2.93 0h2.12a.186.186 0 00.184-.186V6.29a.185.185 0 00-.185-.185H8.1a.185.185 0 00-.185.185v1.887c0 .102.083.185.185.186m-2.964 0h2.119a.186.186 0 00.185-.186V6.29a.185.185 0 00-.185-.185H5.136a.186.186 0 00-.186.185v1.887c0 .102.084.185.186.186m5.893 2.715h2.118a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m-2.93 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.083.185.185.185m-2.964 0h2.119a.185.185 0 00.185-.185V9.006a.185.185 0 00-.184-.186h-2.12a.186.186 0 00-.186.186v1.887c0 .102.084.185.186.185m-2.92 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.082.185.185.185M23.763 9.89c-.065-.051-.672-.51-1.954-.51-.338.001-.676.03-1.01.087-.248-1.7-1.653-2.53-1.716-2.566l-.344-.199-.226.327c-.284.438-.49.922-.612 1.43-.23.97-.09 1.882.403 2.661-.595.332-1.55.413-1.744.42H.751a.751.751 0 00-.75.748 11.376 11.376 0 00.692 4.062c.545 1.428 1.355 2.48 2.41 3.124 1.18.723 3.1 1.137 5.275 1.137.983.003 1.963-.086 2.93-.266a12.248 12.248 0 003.823-1.389c.98-.567 1.86-1.288 2.61-2.136 1.252-1.418 1.998-2.997 2.553-4.4h.221c1.372 0 2.215-.549 2.68-1.009.309-.293.55-.65.707-1.046l.098-.288Z"/></svg><span>Docker</span></div>
 <div class="tool reveal" style="--d:0.44s"><svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path fill="#3B2530" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg><span>GitHub</span></div>
     </div>
+    <div class="creds reveal">
+      <span class="cred"><span><b>PMI-CPMAI™ — Managing AI</b><br><span class="org">PROJECT MANAGEMENT INSTITUTE · 2026</span></span></span>
+      <span class="cred"><span><b>Product Prioritization (PPC)™</b><br><span class="org">PRODUCT SCHOOL · 2026</span></span></span>
+      <span class="cred"><span><b>AI for Product Management</b><br><span class="org">PENDO · 2026</span></span></span>
+      <span class="cred"><span><b>PRINCE2 &amp; PMI practices</b><br><span class="org">PROJECT DELIVERY METHODS</span></span></span>
+    </div>
   </div>
 </section>
 
 <section id="impact" style="padding-top:0">
   <div class="wrap">
     <div class="impact-band reveal">
-      <div><div class="n">2×</div><div class="l">Master's degrees<br>Data Science · Statistics</div></div>
-      <div><div class="n">6 mo</div><div class="l">End-to-end PMO<br>dashboard delivery</div></div>
-      <div><div class="n">−15%</div><div class="l">Customer churn<br>via prediction model</div></div>
-      <div><div class="n">23K+</div><div class="l">Reviews analysed<br>with NLP</div></div>
+      <div><div class="n">1 day/wk</div><div class="l">saved per project manager<br>with the PMO dashboards</div></div>
+      <div><div class="n">2019</div><div class="l">working in data &amp;<br>business analysis since</div></div>
+      <div><div class="n">−15%</div><div class="l">customer churn via<br>prediction model</div></div>
+      <div><div class="n">23K+</div><div class="l">reviews analysed<br>with NLP</div></div>
     </div>
   </div>
 </section>
@@ -252,28 +279,31 @@ footer{padding:24px 0 36px;text-align:center;font-family:var(--mono);font-size:1
 <section id="projects" style="padding-top:0">
   <div class="wrap">
     <p class="eyebrow">Projects</p>
-    <h2>Flip a card, get the story.</h2>
+    <h2>Flip a card: value &amp; lessons.</h2>
     <p class="scope-note">Academic projects were built during my Master in Data Science using publicly available data.</p>
     <div class="cards">
 
       <div class="flip reveal">
-        <button class="flip-inner" aria-expanded="false" aria-label="PMO dashboards at DEEP — flip for details">
+        <button class="flip-inner" aria-expanded="false" aria-label="PMO dashboards at DEEP — flip for value and lessons">
           <div class="face front">
             <span class="badge pro">PROFESSIONAL · INTERNSHIP</span>
             <h3>Power BI PMO Dashboards</h3>
-            <p class="sum">A portfolio steering product for the PM department at DEEP by POST Group.</p>
+            <p class="sum">Portfolio steering for the PM department at DEEP by POST Group — now a reference in direction meetings.</p>
             <div class="techs"><span>Power BI</span><span>DAX</span><span>Power Query</span></div>
             <div class="flip-cue">↻ Flip</div>
           </div>
           <div class="face back">
-            <p>I own this delivery end-to-end: requirements, data pipeline, modeling and reporting. Added value: replacing manual Excel reporting with a consolidated, automated portfolio view that lets management spot project drift early. Internal details stay confidential.</p>
+            <div class="vl">
+              <p><b>ADDED VALUE</b>~1 day per week saved per project manager. KPI alerts flag projects drifting today <em>and</em> likely to drift, using actual + forecast drift, plus a portfolio health index built on RAG logic.</p>
+              <p><b>LESSON LEARNT</b>A dashboard becomes a reference when leadership trusts the data behind it — governance first, visuals second.</p>
+            </div>
             <a class="repo-link" href="https://www.linkedin.com/in/bochra-chemam" target="_blank" rel="noopener">Ask me about it</a>
           </div>
         </button>
       </div>
 
       <div class="flip reveal">
-        <button class="flip-inner" aria-expanded="false" aria-label="Airline sentiment analysis — flip for details">
+        <button class="flip-inner" aria-expanded="false" aria-label="Airline sentiment analysis — flip for value and lessons">
           <div class="face front">
             <span class="badge acad">ACADEMIC · PUBLIC DATA</span>
             <h3>Airline Sentiment Analysis</h3>
@@ -282,14 +312,17 @@ footer{padding:24px 0 36px;text-align:center;font-family:var(--mono);font-size:1
             <div class="flip-cue">↻ Flip</div>
           </div>
           <div class="face back">
-            <p>NLP sentiment and topic analysis on publicly available reviews, delivered as an interactive Power BI dashboard so non-technical users can explore customer experience by theme and time.</p>
+            <div class="vl">
+              <p><b>ADDED VALUE</b>Unstructured text became explorable CX insight: sentiment and themes by route and time, self-serve for non-technical users.</p>
+              <p><b>LESSON LEARNT</b>A model only creates value when the people who need it can use it without you.</p>
+            </div>
             <a class="repo-link" href="https://github.com/Bochrache/Luxair-Flight-Sentiment-Analysis" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> GitHub</a>
           </div>
         </button>
       </div>
 
       <div class="flip reveal">
-        <button class="flip-inner" aria-expanded="false" aria-label="Gene-disease prediction — flip for details">
+        <button class="flip-inner" aria-expanded="false" aria-label="Gene-disease prediction — flip for value and lessons">
           <div class="face front">
             <span class="badge acad">ACADEMIC · PUBLIC DATA</span>
             <h3>Gene–Disease Prediction</h3>
@@ -298,30 +331,36 @@ footer{padding:24px 0 36px;text-align:center;font-family:var(--mono);font-size:1
             <div class="flip-cue">↻ Flip</div>
           </div>
           <div class="face back">
-            <p>Semi-supervised label propagation to predict gene–disease associations: +34.6% over the baseline and 5th place in the course competition.</p>
+            <div class="vl">
+              <p><b>RESULTS</b>5th place in the course Kaggle competition, +34.6% over the baseline with semi-supervised label propagation.</p>
+              <p><b>LESSON LEARNT</b>When labels are scarce, exploiting structure (the graph) beats throwing bigger models at the problem.</p>
+            </div>
             <a class="repo-link" href="https://github.com/Bochrache/gene-disease-prediction" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> GitHub</a>
           </div>
         </button>
       </div>
 
       <div class="flip reveal">
-        <button class="flip-inner" aria-expanded="false" aria-label="Credit risk pipeline — flip for details">
+        <button class="flip-inner" aria-expanded="false" aria-label="Reproducible ML pipeline — flip for value and lessons">
           <div class="face front">
             <span class="badge acad">ACADEMIC · PUBLIC DATA</span>
             <h3>Reproducible ML Pipeline</h3>
-            <p class="sum">Credit risk prediction where every result can be reproduced, bit for bit.</p>
+            <p class="sum">Credit risk prediction where anyone can re-run everything and get the same results.</p>
             <div class="techs"><span>Python</span><span>Nix</span><span>Docker</span></div>
             <div class="flip-cue">↻ Flip</div>
           </div>
           <div class="face back">
-            <p>"It works on my machine" isn't acceptable in regulated domains. Full environment and dependency reproducibility with Nix + Docker — engineering discipline applied to data science.</p>
+            <div class="vl">
+              <p><b>RESULTS</b>End-to-end credit risk pipeline whose environment, dependencies and outputs are fully reproducible with Nix + Docker — same results on any machine.</p>
+              <p><b>LESSON LEARNT</b>Reproducibility is a deliverable, not an afterthought — in regulated domains, trust in the process is worth as much as accuracy.</p>
+            </div>
             <a class="repo-link" href="https://github.com/Bochrache/Credit_Risk_Prediction_Reproducible_Pipeline" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> GitHub</a>
           </div>
         </button>
       </div>
 
       <div class="flip reveal">
-        <button class="flip-inner" aria-expanded="false" aria-label="Alzheimer detection — flip for details">
+        <button class="flip-inner" aria-expanded="false" aria-label="Alzheimer detection — flip for value and lessons">
           <div class="face front">
             <span class="badge acad">ACADEMIC · PUBLIC DATA</span>
             <h3>Alzheimer's Detection (MRI)</h3>
@@ -330,14 +369,17 @@ footer{padding:24px 0 36px;text-align:center;font-family:var(--mono);font-size:1
             <div class="flip-cue">↻ Flip</div>
           </div>
           <div class="face back">
-            <p>91.7% accuracy and 0.93 AUC on public MRI data, plus explainability techniques showing which brain regions drive each prediction — because medical AI needs trust.</p>
-            <a class="repo-link" href="https://github.com/Bochrache" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> GitHub</a>
+            <div class="vl">
+              <p><b>RESULTS</b>91.7% accuracy and 0.93 AUC on public MRI data, with explainability showing which brain regions drive each prediction.</p>
+              <p><b>LESSON LEARNT</b>In sensitive domains, "why" matters as much as "how accurate" — explanation is what earns trust.</p>
+            </div>
+            <a class="repo-link" href="https://github.com/Bochrache/Alzheimer_detection-" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> GitHub</a>
           </div>
         </button>
       </div>
 
       <div class="flip reveal">
-        <button class="flip-inner" aria-expanded="false" aria-label="Eye tracking project — flip for details">
+        <button class="flip-inner" aria-expanded="false" aria-label="Eye tracking project — flip for value and lessons">
           <div class="face front">
             <span class="badge acad">ACADEMIC · PUBLIC DATA</span>
             <h3>Vision × Eye Tracking</h3>
@@ -346,7 +388,10 @@ footer{padding:24px 0 36px;text-align:center;font-family:var(--mono);font-size:1
             <div class="flip-cue">↻ Flip</div>
           </div>
           <div class="face back">
-            <p>Combined object segmentation with eye-tracking analysis to study where people actually look in images — computer vision meets cognitive data.</p>
+            <div class="vl">
+              <p><b>RESULTS</b>Linked object segmentation with eye-tracking data to study where people actually look in images.</p>
+              <p><b>LESSON LEARNT</b>The most interesting insight often appears when you combine datasets and disciplines nobody thought to join.</p>
+            </div>
             <a class="repo-link" href="https://github.com/Bochrache/coco_eye_tracking_project" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> GitHub</a>
           </div>
         </button>
@@ -359,28 +404,58 @@ footer{padding:24px 0 36px;text-align:center;font-family:var(--mono);font-size:1
 <section id="journey" style="padding-top:0">
   <div class="wrap">
     <p class="eyebrow">Journey</p>
-    <h2>Three chapters so far.</h2>
+    <h2>Between academia and industry, since 2019.</h2>
     <div class="journey">
       <div class="j-card deep reveal">
         <span class="when">2026 · LUXEMBOURG</span>
         <h3>ICT Project Management Intern</h3>
         <div class="org">DEEP by POST Group</div>
-        <p>Leading the end-to-end delivery of Power BI PMO dashboards — from requirements and data quality to modeling and reporting — for an ICT project portfolio.</p>
+        <p>Leading the end-to-end delivery of Power BI PMO dashboards — work that became a reference in direction meetings and saves each project manager about one day per week.</p>
       </div>
       <div class="j-card reveal" style="--d:.08s">
         <span class="when">PART-TIME · LUXEMBOURG</span>
-        <h3>Data Analyst</h3>
+        <h3>Data Analyst &amp; ML Graduate Researcher</h3>
         <div class="org">University of Luxembourg</div>
-        <p>Data analysis and systematic research supporting evidence-based medical studies, with cross-functional research teams.</p>
+        <p>Machine learning research and data analysis supporting evidence-based studies, working with cross-functional academic and healthcare teams.</p>
       </div>
       <div class="j-card reveal" style="--d:.16s">
-        <span class="when">2020 — 2022 · ALGERIA</span>
-        <h3>Marketing Data Analyst</h3>
+        <span class="when">2019 — 2022 · ALGERIA</span>
+        <h3>Business &amp; Marketing Data Analyst</h3>
         <div class="org">ATM Mobilis</div>
-        <p>Churn prediction reducing attrition by 15% and automated reporting improving KPI efficiency by 20%, in a high-volume B2C telecom.</p>
+        <p>Business analysis in a high-volume B2C telecom: churn prediction reducing attrition by 15% and automated reporting improving KPI efficiency by 20%.</p>
       </div>
     </div>
-    <p class="edu-line">MASTER IN DATA SCIENCE — UNIVERSITY OF LUXEMBOURG (2026) · MASTER OF APPLIED STATISTICS — ENSSEA</p>
+    <p class="edu-line">MASTER IN DATA SCIENCE — UNIVERSITY OF LUXEMBOURG (2026)<br>MASTER OF APPLIED STATISTICS — ENSSEA</p>
+  </div>
+</section>
+
+<section id="beyond" style="padding-top:0">
+  <div class="wrap">
+    <p class="eyebrow">Beyond the desk</p>
+    <h2>What keeps me curious.</h2>
+    <div class="beyond">
+      <div class="b-tile lead reveal">
+        <span class="ico">🧒</span>
+        <h3>Volunteer Team Leader — Code Club Luxembourg</h3>
+        <span class="org">TEACHING KIDS TO CODE</span>
+        <p>I lead volunteer sessions introducing children to the world of coding, starting with Scratch — passing on the "build it yourself" mindset early.</p>
+      </div>
+      <div class="b-tile reveal" style="--d:.06s">
+        <span class="ico">⚡</span>
+        <h3>Vibe coding</h3>
+        <p>Prototyping new ideas with AI tools — from concept to working demo, fast.</p>
+      </div>
+      <div class="b-tile reveal" style="--d:.12s">
+        <span class="ico">🥾</span>
+        <h3>Hiking</h3>
+        <p>Trails and fresh air to reset the mind.</p>
+      </div>
+      <div class="b-tile reveal" style="--d:.18s">
+        <span class="ico">🏊</span>
+        <h3>Swimming</h3>
+        <p>Laps as moving meditation.</p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -389,7 +464,7 @@ footer{padding:24px 0 36px;text-align:center;font-family:var(--mono);font-size:1
     <div class="contact reveal">
       <p class="eyebrow" style="justify-content:center">Contact</p>
       <h2>Let's talk.</h2>
-      <p>Open to opportunities at the intersection of data, BI and project delivery — Luxembourg or remote.</p>
+      <p>Open to opportunities across data, business analysis, project and product delivery — Luxembourg or remote.</p>
       <div class="contact-links">
         <a class="btn btn-gold" href="mailto:bochra.chemam@outlook.com">Email me</a>
         <a class="btn btn-ghost" href="https://www.linkedin.com/in/bochra-chemam" target="_blank" rel="noopener">LinkedIn</a>
@@ -399,7 +474,7 @@ footer{padding:24px 0 36px;text-align:center;font-family:var(--mono);font-size:1
   </div>
 </section>
 
-<footer>BOCHRA CHEMAM · LUXEMBOURG · LEARN BY DOING</footer>
+<footer>BOCHRA CHEMAM · LUXEMBOURG · BUILD · LEARN · REPEAT</footer>
 
 <script>
 document.querySelectorAll('.flip-inner').forEach(function(btn){
